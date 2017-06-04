@@ -32,6 +32,7 @@ public class JsoupDemo {
 		map.put("薛之谦", "暧昧");
 		map.put("莫文蔚", "忽然之间");
 		map.put("soler", "风的季节");
+		map.put("周杰伦", "青花瓷");
 		Set<Entry<String, String>> entrySet = map.entrySet();
 		for (Entry<String, String> entry : entrySet) {
 			System.out.println("key" + entry.getKey() + "  value:" + entry.getValue());
