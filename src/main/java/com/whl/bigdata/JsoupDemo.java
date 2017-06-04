@@ -4,6 +4,19 @@ import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.Set;
 
+/**
+ * 
+ * Title: JsoupDemo
+ * <p>
+ * Description: jsoup测试小入门
+ * </p>
+ * <p>
+ * Company:
+ * </p>
+ * 
+ * @author 17697
+ * @date 2017年6月4日 下午4:48:52
+ */
 public class JsoupDemo {
 	public static void main(String[] args) throws Exception {
 		// Connection connect =
