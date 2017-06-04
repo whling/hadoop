@@ -1,6 +1,5 @@
 package com.whl.bigdata;
 
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -32,6 +31,7 @@ public class JsoupDemo {
 		map.put(null, "hello");
 		map.put("薛之谦", "暧昧");
 		map.put("莫文蔚", "忽然之间");
+		map.put("soler", "风的季节");
 		Set<Entry<String, String>> entrySet = map.entrySet();
 		for (Entry<String, String> entry : entrySet) {
 			System.out.println("key" + entry.getKey() + "  value:" + entry.getValue());
