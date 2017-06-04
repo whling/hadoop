@@ -6,7 +6,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<!-- test -->
 	<dependencies>
-
 		<!-- github测试 -->
 		<dependency>
 			<groupId>jdk.tools</groupId>
@@ -21,13 +20,13 @@
 			<artifactId>hadoop-client</artifactId>
 			<version>2.6.1</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.apache.hadoop</groupId>
 			<artifactId>hadoop-yarn-client</artifactId>
 			<version>2.6.1</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.apache.hadoop</groupId>
 			<artifactId>hadoop-yarn-api</artifactId>
@@ -39,7 +38,6 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.40</version>
 		</dependency>
-		
 		<dependency>
 			<groupId>org.apache.hive</groupId>
 			<artifactId>hive-common</artifactId>
@@ -57,25 +55,25 @@
 			<artifactId>gson</artifactId>
 			<version>2.8.0</version>
 		</dependency>
-		
 		<dependency>
 			<groupId>org.jsoup</groupId>
 			<artifactId>jsoup</artifactId>
 			<version>1.9.2</version>
 		</dependency>
-
-
-
-		
 		<dependency>
 			<groupId>org.apache.hbase</groupId>
 			<artifactId>hbase-client</artifactId>
 			<version>0.99.2</version>
 		</dependency>
-		
 		<dependency>
 			<groupId>org.apache.hbase</groupId>
 			<artifactId>hbase-common</artifactId>
+			<version>0.99.2</version>
+		</dependency>
+		<!-- 如果想要hbase开发mapreduce程序，则需要添加此类jar包 -->
+		<dependency>
+			<groupId>org.apache.hbase</groupId>
+			<artifactId>hbase-server</artifactId>
 			<version>0.99.2</version>
 		</dependency>
 
