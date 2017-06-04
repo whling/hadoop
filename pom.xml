@@ -4,6 +4,7 @@
 	<groupId>com.whl.bigdata</groupId>
 	<artifactId>hadoop</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<!-- test -->
 	<dependencies>
 		<dependency>
 			<groupId>jdk.tools</groupId>
